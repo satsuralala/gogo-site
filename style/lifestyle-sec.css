@@ -1,0 +1,201 @@
+.lifestyle-sec_grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 360px;
+  gap: 15px;
+}
+.lifestyle-sec_article {
+  margin-top: 20px;
+}
+.lifestyle-sec {
+  padding-left: 5%;
+  padding-top: 60px;
+}
+.lifestyle-sec_header {
+  display: flex;
+  gap: 8px;
+}
+.lifestyle-sec_header > h1 {
+  font-family: Helvetica Neue;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 22px;
+  text-align: left;
+}
+.lifestyle-sec_header > div {
+  height: 24px;
+  border-radius: 3px;
+  background-color: #00b0f4;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px 3px;
+}
+.lifestyle-sec_article_img {
+  max-width: 296px;
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 5px; */
+}
+.lifestyle-sec_article {
+  max-width: 296px;
+}
+.lifestyle-sec_article_img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.lifestyle-sec_article_text {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgb(241, 241, 241);
+  padding: 10px;
+  position: relative;
+  height: 80px;
+}
+.lifestyle-sec_article_text > p {
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+}
+.lifestyle-sec_article_text_icons {
+  display: flex;
+  gap: 5px;
+  width: 100%;
+}
+.lifestyle-sec_article_text_icons {
+  margin: auto;
+  border-top: 1px solid #00000008;
+  display: flex;
+  align-items: center;
+  position: absolute;
+  bottom: 5%;
+}
+.lifestyle-sec_article_text_icons img {
+  width: 12px;
+  height: 12px;
+  padding-top: 8px;
+}
+.lifestyle-sec_article_img-hidden__section {
+  background: rgba(34, 34, 34, 0.5);
+  color: rgb(255, 255, 255);
+  padding: 30px 30px 30px 30px;
+  opacity: 0;
+  transition: opacity 0.5s;
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  inset: 0 0 0 0;
+}
+.lifestyle-sec_article_img:hover .lifestyle-sec_article_img-hidden__section {
+  opacity: 1;
+}
+.lifestyle-sec_article_text_icons > img + div {
+  font-size: 12px;
+  font-weight: 400px;
+  color: #888888;
+  padding-top: 8px;
+}
+.lifestyle-sec_article_img:hover > img {
+  transform: scale(1.1);
+  transition: all 0.2s ease-in-out;
+}
+.tech-icon{
+    width: 23px;
+    height: 25px;
+}
+.comic-sec_grid{
+    display: grid;
+    margin-top: 20px;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 1fr;
+    gap: 15px;
+
+}
+.lifestyle-sec_article_img {
+  max-width: 296px;
+  height: 230px;
+  position: relative;
+  overflow: hidden;
+  /* border-radius: 5px; */
+}
+.lifestyle-sec_article {
+  max-width: 296px;
+}
+.lifestyle-sec_article_img > img {
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.lifestyle-sec_article_text {
+  background-color: rgba(0, 0, 0, 0.02);
+  border: 1px solid rgb(241, 241, 241);
+  padding: 10px;
+  position: relative;
+  height: 80px;
+}
+.lifestyle-sec_article_text > p {
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+}
+/* ///jhg */
+.comic-sec_article_img {
+    height: 200px;
+    position: relative;
+    overflow: hidden;
+ 
+  }
+  .lifestyle-sec_article {
+    max-width: 296px;
+  }
+  .comic-sec_article_img > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .comic-sec_article_text {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(241, 241, 241);
+    padding: 10px;
+    position: relative;
+    height: 80px;
+    margin-top: 10px;
+  }
+  .comic-sec_article_text > p {
+    font-size: 16px !important;
+    font-weight: 500;
+    flex: 1;
+    color: #000;
+  }
+  .lifestyle-sec_article_img-hidden__section {
+    background: rgba(34, 34, 34, 0.5);
+    color: rgb(255, 255, 255);
+    padding: 30px 30px 30px 30px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    font-size: 16px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    inset: 0 0 0 0;
+  }
+  .comic-sec_article_img:hover .lifestyle-sec_article_img-hidden__section {
+    opacity: 1;
+  }
+  .comic-sec_article_img:hover > img {
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+  }
+  

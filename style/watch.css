@@ -1,0 +1,67 @@
+.watch-sec{
+    background-color: #1a1a1a;
+    width: 100%;
+    margin-top: 60px;
+}
+
+.watch-sec_header{
+    padding: 50px 15px 21px 5%;
+    gap: 10px;
+    display: flex;
+
+}
+.watch-sec_header_text{
+font-size: 18px;
+font-weight: 700;
+line-height: 30px;
+text-align: left;
+color: #FFFFFF;
+
+}
+.watch-sec_article_text {
+    padding: 10px 10px 10px 10px;
+  
+    position: relative;
+    height: 55px;
+    margin-top: 10px;
+}
+ .watch-sec_grid{
+    display: grid;
+    margin-top: 26px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(8,1fr);
+    gap: 30px;
+    padding: 0px 15px 0px 5%;
+
+}
+.watch-sec_article_text  > p {
+    font-size: 14px !important;
+    font-weight: 550;
+    flex: 1;
+    color: #FFFFFFCC;
+}
+
+.comic-sec_article_img{
+    position: relative;
+    border-radius: 5px;
+}
+.comic-sec_article_img>img+img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 45px;
+    height: 35px;
+
+}
+.watch-sec_article_text_icons{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding-top: 10px;
+
+}
+.watch-sec_article_text_icons img{
+ width: 12px;
+ height: 12px;
+}
+ 

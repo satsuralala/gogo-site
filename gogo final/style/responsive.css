@@ -1,0 +1,34 @@
+/* FOR MOBILE  */
+:root {
+    --breakpoint-s: 640px;
+    --breakpoint-m: 960px;
+    --breakpoint-l: 1200px;
+    --breakpoint-xl: 1600px;
+}
+.header-navigations{
+  display: none;
+}
+.header-menu-bar{
+  flex: 1;
+}
+
+/* for desktop */
+ 
+@media  (min-width: 960px) {
+    .header-navigations{
+      display: flex; 
+      flex: 1;
+      align-items: center;
+      gap: 4px;
+      
+    }
+    .header__nav{
+      display: flex;
+      align-items: center;
+    }
+    .header-menu-bar{
+      display: none;
+    }
+  }
+
+

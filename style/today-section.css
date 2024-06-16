@@ -1,0 +1,102 @@
+.today-grid-section{
+    margin: 20px 30px 30px 30px;
+    text-decoration: none;
+}
+
+.today-grid-section_news-part {
+    text-decoration: none;
+    display: flex;
+    padding: 40px 0px 10px 0px;
+  }
+.today-grid-section_news-part__text{
+    padding-left: 15px;
+    /* flex: 1;
+    width: 100%; */
+}
+  .today-grid-section_news-part__text-icons{
+    display: flex;
+    gap: 5px;
+  }
+  .today-grid-section_news-part__text-icons  img{
+    width: 12px;
+    height: 12px;
+  }
+  .today-grid-section_news-part__img>img {
+    display: block;
+    object-fit: cover;
+    border-radius: 5px;
+    width: 105px; 
+    height: 110px;
+   
+   
+  }
+
+.today-grid-section_news-part__text>h3{
+    font-weight: 400;
+    font-size: 15px;
+    margin-bottom: 10px !important;
+    color: var(--primary-text-black);
+} 
+.today-grid-section_news-part__text>h3+p{
+  color: rgb(136, 136, 136);
+  font-size: 13px;
+  font-weight: 400;
+  margin-top: 10px;
+  margin-bottom: 15px;
+ 
+}
+
+.today-grid-section_news-part__text-icons p{
+    font-size: 12px !important;
+    color: #888;
+}
+.today-grid-section_news-part__img__img-hidden__section{
+        position: absolute;
+        inset: 0;
+        background-color: rgba(34, 34, 34, .5);
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+
+}
+.today-grid-section_news-part__img{
+    position: relative;
+    overflow: hidden;
+}
+.today-grid-section_news-part__img:hover .today-grid-section_news-part__img__img-hidden__section{
+
+  transition: transform 0.5s;
+}
+.today-grid-section_news-part__img img{
+    display: block;
+  object-fit: cover;
+}
+.today-grid-section_news-part__img:hover .today-grid-section_news-part__img__img-hidden__section{
+    opacity: 2;
+}
+
+.today-grid-section_news_footer{
+  width: 690px;
+height: 64.27px;
+border-radius: 5px 0px 0px 0px;
+background: #F8F8F8;
+border: 1px solid #F2F2F2;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.today-grid-section_news_footer>p{
+font-size: 16px;
+font-weight: 700;
+line-height: 22px;
+color: #000;
+}
+.today-grid-section_news_footer img{
+  width: 17px;
+height: 21px;
+padding-left: 5px;
+}
